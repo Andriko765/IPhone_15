@@ -28,23 +28,23 @@ const Features = () => {
 			},
 			{ scrub: 5.5 }
 		);
-		animateWithGsap('.g _text', {
+		animateWithGsap('.g_text', {
 			y: 0,
 			opacity: 1,
-			ease: 'power1.inOut',
+			ease: 'power2.inOut',
 			duration: 1,
 		});
 	}, []);
 	return (
 		<section className=" h-full common-padding bg-zinc relative overflow-hidden">
-			<div className=" screnn-max-width">
+			<div className=" screen-max-width">
 				<div className=" mb-12 w-full">
 					<h1 id="features_title" className="section-heading">
 						Explore full story.
 					</h1>
 				</div>
 
-				<div className="flexc flex-col justify-center items-center overflow-hidden">
+				<div className="flex flex-col justify-center items-center overflow-hidden">
 					<div className="mt-32 mb-24 pl-24">
 						<h2 className=" text-5xl lg:text-7xl font-semibold">Iphone.</h2>
 						<h2 className=" text-5xl lg:text-7xl font-semibold">
@@ -84,7 +84,7 @@ const Features = () => {
 							</div>
 							<div className="feature-text-container">
 								<div className="flex-1 flex-center">
-									<p className="feature-text g_text">
+									<p className="feature-text  g_text">
 										Iphone 15 Pro is{' '}
 										<span className="text-white">
 											the first Iphone to feature an aerospace-grade titanium
@@ -95,17 +95,15 @@ const Features = () => {
 									</p>
 								</div>
 
-								<div className="feature-text-container">
-									<div className="flex-1 flex-center">
-										<p className="feature-text g_text">
-											Titanium has one of the best strength-to-weight ratios of
-											any metal, making these our{' '}
-											<span className="text-white">
-												lightest Pro models ever.
-											</span>
-											You'll notice the difference the moment you pick one up.
-										</p>
-									</div>
+								<div className="flex-1 flex-center">
+									<p className="feature-text g_text">
+										Titanium has one of the best strength-to-weight ratios of
+										any metal, making these our{' '}
+										<span className="text-white">
+											lightest Pro models ever.
+										</span>
+										You'll notice the difference the moment you pick one up.
+									</p>
 								</div>
 							</div>
 						</div>
